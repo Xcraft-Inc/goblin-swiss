@@ -1,0 +1,28 @@
+{
+  "name": "goblin-swiss",
+  "version": "0.1.0",
+  "description": "Swiss stuff",
+  "author": "Epsitec SA",
+  "contributors": [
+    "Samuel Loup <loup@epsitec.ch>"
+  ],
+  "license": "MIT",
+  "config": {
+    "xcraft": {
+      "commands": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "xcraft-core-goblin": "^5.8.0",
+    "xcraft-core-utils": "^4.14.0",
+    "unzipper": "^0.12.3"
+  },
+  "devDependencies": {
+    "xcraft-dev-prettier": "^2.0.0",
+    "xcraft-dev-rules": "^4.4.2"
+  },
+  "prettier": "xcraft-dev-prettier"
+}
